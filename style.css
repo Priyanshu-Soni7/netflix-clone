@@ -65,7 +65,7 @@ nav button{
 .hero> :first-child{
     text-align: center;
     padding: 15px;
-    font-size: 48px;
+    font-size: 65px;
     font-weight: 900;
     .poppins-black {
   font-family: "Poppins", sans-serif;
@@ -162,4 +162,57 @@ nav button{
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+
+.infobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+}
+.more {
+    width: 50%;
+    color: white;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.second > div:not(.more) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.info :first-child{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 10px;
+}
+.info :nth-child(2){
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 60;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.info{;;
+    gap: 10px;
+    background-color: #1e1425;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    height: 30vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
 }
