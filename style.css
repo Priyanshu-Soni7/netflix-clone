@@ -173,11 +173,11 @@ nav button{
     gap: 10px;   
 }
 .more {
+    padding: 20px;
     width: 50%;
     color: white;
     font-size: 35px;
     font-family: "Roboto", sans-serif;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -187,7 +187,7 @@ nav button{
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    padding: 0 40px;
+    padding: 30px 40px;
 }
 
 .info :first-child{
@@ -205,7 +205,7 @@ nav button{
     padding-top: 10px;
 }
 
-.info{;;
+.info{
     gap: 10px;
     background-color: #1e1425;
     color: white;
@@ -215,4 +215,26 @@ nav button{
     width: 15vw;
     display: flex;
     flex-direction: column;
+}
+
+.faq h2{
+    text-align: center;
+
+}
+.faq{
+    padding: 34px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.faqbox{
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    background-color: gray;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
 }
